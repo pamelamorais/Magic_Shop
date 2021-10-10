@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilo_menu.css">
+    <link rel="stylesheet" type="text/css" href="print.css" media="print" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js.js"></script>
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+      <nav>
+        <ul id="ul-principal">
+            <li class="li-p">
+                <a href="index.html">HOME</a>
+            </li>
+            <li class="li-p">
+                <a href="javascript://" class="inicio">Membros
+                    <img src="seta.png" alt="seta" width="20">
+                </a>
+                <ul class="ul-Inicio">
+                    <li>
+                        <a href="pag002.html" rel="next">Membros que formam o grupo BTS</a> 
+                    </li>
+                </ul>
+            </li>
+            <li class="li-p">
+                <a href="javascript://" class="album">Álbuns
+                    <img src="seta.png" alt="seta" width="20">
+                </a>
+                <ul class="ul-albuns">
+                    <li>
+                        <a href="album.html">Lista de álbuns</a>
+                    </li>
+                </ul>
+                <ul class="ul-albuns">
+                    <li>
+                        <a href="japoneses.html">Lista de álbuns japoneses</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="li-p">
+                <a href="sobre.html">Sobre o autor </a>
+            </li>
+            <li class="li-p">
+                <a href="menu2.html">Versão-Menu Vertical</a>
+            </li>
+            <li class="li-p">
+                <a href="javascript://" class="adm">Administração
+                    <img src="seta.png" alt="seta" width="20">
+                </a>
+                <ul class="ul-administracao">
+                    <li>
+                        <a href="login.html">Login</a>
+                    </li>
+                </ul>
+                <ul  class="ul-administracao">
+                    <li>
+                        <a href="cadastro.html">Cadastro</a>
+                    </li>
+                </ul>
+                <ul class="ul-administracao">
+                    <li>
+                        <a href="cadastro_de_usuario.html"> Cadastro de Álbuns</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <img src="favicon-32x32.png" alt="Logo">
+    </nav>
+    </header>
+    <div class="container" >
+        <a class="links" id="paracadastro"></a>
+        <a class="links" id="paralogin"></a>
+        
+        <div class="content">      
+          <div id="login">
+            <form method="post" action=""> 
+              <h1>Login</h1> 
+              <hr>
+              <p> 
+                <label for="nome_login">Seu nome</label>
+                <input id="nome_login" name="nome_login" required="required" type="text" placeholder="Pâmela Morais"/>
+              </p>
+              <p> 
+                <label for="email_login">Seu e-mail</label>
+                <input id="email_login" name="email_login" required="required" type="text" placeholder="contato@gmail.com"/>
+              </p>
+              
+              <p> 
+                <label for="senha_login">Sua senha</label>
+                <input id="senha_login" name="senha_login" required="required" type="password" placeholder="1234" /> 
+              </p>
+              
+              <p> 
+                <input type="checkbox" name="manterlogado" id="manterlogado" value="" /> 
+                <label for="manterlogado">Manter-me logado</label>
+              </p>
+              
+              <p> 
+                <input type="submit" value="Logar" /> 
+              </p>
+              
+              <p class="link">
+                Ainda não possui uma conta? Sem problemas, click na palavra ao lado e vá direto para a página de cadastro!
+                <a href="cadastro.html">Cadastre-se</a>
+              </p>
+            </form>
+          </div>
+        </div>
+        
+
+        
+          <hr>
+          <p><a href="index.html" rel="prev">Voltar para a página inicial.</a></p>
+          <hr>
+          <footer>
+            Desenvolvido por <a href="sobre.html">Pâmela Morais</a>
+        </footer>
+</body>
+</html>

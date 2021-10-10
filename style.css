@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+:root{
+    --cor1: #4B0082;
+    --cor2:#000000;
+    --cor3:#0000FF;
+    --cor4:#FFC0CB;
+    --cor5:blue;
+    --cor6:red;
+    --cor7:white;
+    --cor8:#1d075f;
+}
+body {
+    background-color: var(--cor4);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+h1 {
+    color: var(--cor);
+    font-family: 'Pacifico', Arial, Helvetica, sans-serif;
+
+}
+
+h2 {
+    color: var( --cor1);
+    font-family: inherit;
+}
+
+h3{
+    color: var(--cor3);
+}
+
+section{
+    text-align: center;
+} 
+
+article{
+    display:inline-block;
+    width: 45%;
+    min-width: 300px;
+    text-align: center;
+    vertical-align: top;
+}
+
+article img{
+    max-height: 300px;
+    width: 100%;
+}
+
+p {
+    text-align: justify;
+    color: rgb(0, 89, 255);
+}
+
+p, h1, h2{
+    padding: 1em;
+}
+.print {
+    display:none;
+}
+    
+.no-print { 
+    display:block; 
+}
+

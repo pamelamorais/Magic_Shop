@@ -1,0 +1,12 @@
+table{
+    border-style: hidden;
+    margin: 0 auto;
+    background:rgb(42, 111, 231);
+    width: 50%;
+}
+tr:nth-child(even){
+    background:rgb(85, 136, 230) ;
+}
+hr{
+    margin: 30px;
+}

@@ -1,0 +1,91 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor4);
+}
+
+ul{
+    list-style: none;
+}
+
+ul#ul-principal{
+    top: 70px;
+    position: absolute;
+    width: 100%;
+
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+nav{
+    background-color: rgba(16, 16, 16, .5);
+    width: 350px;
+    height: 100%;
+    left: -350px;
+    position: absolute;
+    transition: all .5s;
+}
+
+input[type="checkbox"]:checked ~ nav{
+    transform: translateX(350px);
+}
+
+a{
+    display: block;
+    padding: 20px 5px;
+    color: white;
+}
+
+a:hover{
+    background-color: rgba(176, 224, 230);
+    color: black;
+}
+
+label{
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+
+nav ul li:hover > .ul-administracao{
+    display:block;
+}
+
+nav ul li:hover > .ul-albuns{
+    display:block
+}
+
+nav ul li:hover > .ul-Inicio{
+    display:block
+    
+}
+
+ul#ul-principal{
+    width: 90%;
+    margin: auto;
+
+}
+
+.li-p{
+    line-height: 60px;
+    float: left;
+}
+
+ul li ul li{
+    background-color: black;
+}
+
+.ul-Inicio, .ul-albuns, .ul-administracao{
+    display: none;
+}

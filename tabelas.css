@@ -1,0 +1,12 @@
+table{
+    border-style: hidden;
+    margin: 0 auto;
+    background:var(--cor15);
+    width: 50%;
+}
+tr:nth-child(even){
+    background: var(--cor14);
+}
+hr{
+    margin: 30px;
+}

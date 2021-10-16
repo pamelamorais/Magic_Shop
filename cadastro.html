@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilo_menu.css">
+    <link rel="stylesheet" href="tabelas.css">
+    <link rel="stylesheet" type="text/css" href="print.css" media="print" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js.js"></script>
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+      <nav>
+        <ul id="ul-principal">
+            <li class="li-p">
+                <a href="index.html">HOME</a>
+            </li>
+            <li class="li-p">
+                <a href="javascript://" class="inicio">Membros
+                    <img src="seta.png" alt="seta" width="20">
+                </a>
+                <ul class="ul-Inicio">
+                    <li>
+                        <a href="pag002.html" rel="next">Membros que formam o grupo BTS</a> 
+                    </li>
+                </ul>
+            </li>
+            <li class="li-p">
+                <a href="javascript://" class="album">Álbuns
+                    <img src="seta.png" alt="seta" width="20">
+                </a>
+                <ul class="ul-albuns">
+                    <li>
+                        <a href="album.html">Lista de álbuns</a>
+                    </li>
+                </ul>
+                <ul class="ul-albuns">
+                    <li>
+                        <a href="japoneses.html">Lista de álbuns japoneses</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="li-p">
+                <a href="sobre.html">Sobre o autor </a>
+            </li>
+            <li class="li-p">
+                <a href="menu2.html">Versão-Menu Vertical</a>
+            </li>
+            <li class="li-p">
+                <a href="javascript://" class="adm">Administração
+                    <img src="seta.png" alt="seta" width="20">
+                </a>
+                <ul class="ul-administracao">
+                    <li>
+                        <a href="login.html">Login</a>
+                    </li>
+                </ul>
+                <ul  class="ul-administracao">
+                    <li>
+                        <a href="cadastro.html">Cadastro</a>
+                    </li>
+                </ul>
+                <ul class="ul-administracao">
+                    <li>
+                        <a href="cadastro_de_usuario.html"> Cadastro de Álbuns</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <img src="favicon-32x32.png" alt="Logo">
+    </nav>
+    </header>
+    <div id="cadastro">
+        <form method="post" action=""> 
+          <h1>Cadastro de usuários</h1> 
+          
+          <p> 
+            <label for="nome">Seu nome</label>
+            <input id="nome" name="nome" required="required" type="text" placeholder="Pâmela Morais" />
+          </p>
+          
+          <p> 
+            <label for="email">Seu e-mail</label>
+            <input id="email" name="email" required="required" type="email" placeholder="contato@gmail.com"/> 
+          </p>
+          
+          <p> 
+            <label for="senha">Sua senha</label>
+            <input id="senha" name="senha" required="required" type="password" placeholder="1234"/>
+          </p>
+          
+          <p> 
+            <input type="submit" value="Cadastrar"/> 
+          </p>
+          <p>
+            Já possui uma conta?
+            <a href="login.html"> Ir para a página de Login </a>
+          </p>
+        </form>
+      </div>
+  <hr> 
+  <table border="1">
+      <tr>
+          <th>Nome</th>
+          <th>E-mail</th>
+      </tr>
+      <tr>
+          <td>Raíssa Souza</td>
+          <td>raissasousa123@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Felipe Ribeiro</td>
+        <td>feliperibeiro55@gmail.com</td>
+    </tr>
+    <tr>
+        <td>Jorge Silva</td>
+        <td>jorgesilva34@gmail.com</td>
+    </tr>
+    <tr>
+        <td>Maria Rodrigues</td>
+        <td>mariarodrigues09@gmail.com</td>
+    </tr>
+    <tr>
+        <td>Sofia dos Santos</td>
+        <td>sofiadossantos67@gmail.com</td>
+    </tr>
+    <tr>
+        <td>Maria Helena</td>
+        <td>mariahelena28@gmail.com</td>
+    </tr>
+    <tr>
+        <td>José Arthur</td>
+        <td>josearthur14@gmail.com</td>
+    </tr>
+    <tr>
+        <td>Francisco Walston</td>
+        <td>franciscowalston01@gmail.com</td>
+    </tr>
+    <tr>
+        <td>Francisco Winiston</td>
+        <td>franciscowiniston04@gmail.com</td>
+    </tr>
+    <tr>
+        <td>Antônia Verônica</td>
+        <td>antoniaveronica11@gmail.com</td>
+    </tr>
+    <tr>
+        <td>Francisco Welligton</td>
+        <td>franciscowelligton18@gmail.com</td>
+    </tr>
+  </table>
+  <p>
+    <input  type="submit" value="Editar"/> 
+    <input  type="submit" value="Apagar"/> 
+  </p>
+ 
+  <hr>
+
+  <p><a href="index.html" rel="prev">Voltar para a página inicial.</a></p>
+  <hr>
+  <footer>
+    Desenvolvido por <a href="sobre.html">Pâmela Morais</a>
+</footer>
+</body>
+</html>
